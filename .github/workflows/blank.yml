@@ -19,3 +19,11 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo Wellinton
+  
+  deployar:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Deploy
+        run: echo Estoy haciendo un deploy
